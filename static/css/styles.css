@@ -1,0 +1,291 @@
+html, body {
+	height: 100%;
+	background-color: #ededed;
+}
+
+body {
+	color: #5e5e5e;
+	font-family: Arial;
+	font-size: 12px;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	min-height: 100%;
+	height: auto!important;
+	height: 100%;
+}
+
+#center {
+	padding-bottom: 6px;
+}
+
+#header {
+	border-radius: 8px;
+	-moz-border-radius: 8px;
+	-webkit-border-ra	dius: 8px;
+	background-color: #fff;
+	margin-top: 6px;
+	height: 120px;
+	width: 700px;
+	border: 1px solid #a9a9a9;
+	padding: 0 4px 0 4px;
+	text-align: left;
+}
+
+#footer {
+	border-radius: 8px;
+	-moz-border-radius: 8px;
+	-webkit-border-ra	dius: 8px;
+	background-color: #fff;
+	margin-top: 6px;
+	height: 60px;
+	width: 700px;
+	border: 1px solid #a9a9a9;
+	padding: 0 4px 0 4px;
+}
+
+#menu {
+	border-radius: 8px;
+	-moz-border-radius: 8px;
+	-webkit-border-ra	dius: 8px;
+	background-color: #fff;
+	margin-top: 6px;
+	height: 19px;
+	width: 692px;
+	border: 1px solid #a9a9a9;
+	text-align: left;
+	padding: 4px 8px 0 8px;
+}
+
+#menu a {
+	padding: 2px 4px 2px 4px;
+	text-decoration: none;
+	color: #5e5e5e;
+}
+
+#menu a:hover {
+	background-color: #a9a9a9;
+	color: #ededed;
+}
+
+#messages {
+	border-radius: 8px;
+	-moz-border-radius: 8px;
+	-webkit-border-ra	dius: 8px;
+	background-color: #fff;
+	margin-top: 6px;
+	min-height: 19px;
+	width: 692px;
+	border: 1px solid #a9a9a9;
+	padding: 4px 8px 0 8px;
+	font-weight: bold;
+}
+
+#user_online {
+	border-radius: 8px;
+	-moz-border-radius: 8px;
+	-webkit-border-ra	dius: 8px;
+	background-color: #fff;
+	margin-top: 6px;
+	height: 19px;
+	width: 692px;
+	border: 1px solid #a9a9a9;
+	text-align: left;
+	padding: 4px 8px 0 8px;
+}
+
+#content {
+	border-radius: 8px;
+	-moz-border-radius: 8px;
+	-webkit-border-ra	dius: 8px;
+	background-color: #fff;
+	margin-top: 6px;
+	min-height: 440px;
+	height: auto !important;
+	width: 692px;
+	border: 1px solid #a9a9a9;
+	padding: 8px 8px 0 8px;
+	text-align: left;
+}
+
+#vk_comm {
+	border-radius: 8px;
+	-moz-border-radius: 8px;
+	-webkit-border-ra	dius: 8px;
+	background-color: #fff;
+	margin-top: 6px;
+	width: 692px;
+	border: 1px solid #a9a9a9;
+	padding: 8px 8px 0 8px;
+	text-align: left;
+}
+
+#footer .footer {
+	height: 60px;
+	vertical-align: middle;
+	display: table-cell;
+}
+
+#header h1 {
+	margin: 0px;
+	padding: 12px 0 0 16px;
+}
+
+#header h3 {
+	margin: 0px;
+	padding: 12px 0 0 16px;
+}
+
+#header img {
+	margin: 0px;
+	padding: 0 16px 0 0;
+}
+
+#content h2 {
+	margin: 0px;
+}
+
+#content h3 {
+	margin: 0px;
+	padding: 4px 0 4px 0;
+}
+
+#content input {
+	border: 1px solid #a9a9a9;
+	margin-left: 0px;
+}
+
+.paginator {
+
+}
+
+#messages .close {
+	margin-top: -11px;
+}
+
+#messages .success {
+	color: #1800ff;
+}
+
+#messages .error {
+	color: #ff0000;
+}
+
+.form {
+	padding-bottom: 20px;
+}
+
+.article_simple {
+	width: 682px;
+	height: 90px;
+	border: 1px solid #a9a9a9;
+}
+
+.article_full {
+	width: 682px;
+	height: 300px;
+	border: 1px solid #a9a9a9;
+}
+
+.form input[type="text"] {
+	width: 686px;
+}
+
+.form th {
+	padding-top: 8px;
+}
+
+.textarea {
+	width: 500px;
+	height: 90px;
+	border: 1px solid #a9a9a9;
+}
+
+.registration_form input[type="text"], .registration_form input[type="password"] {
+	width: 240px;
+}
+
+#id_captcha_1 {
+	width: 140px;
+	float:right;
+	margin-right: 2px;
+}
+
+.captcha {
+	float:left;
+}
+
+.clear {
+	clear:both;
+	line-height:0;
+	font-size:0;
+}
+
+.left {
+	float:left;
+}
+
+.right {
+	float:right;
+}
+
+.article h2 {
+	margin: 0px;
+	color: #5e5e5e;
+}
+
+.article a {
+	text-decoration: none;
+	color: #5e5e5e;
+}
+
+.article a:hover {
+	text-decoration: underline;
+	color: #5e5e5e;
+}
+
+.article p {
+	color: #000;
+	margin: 4px 0 0 0;
+}
+
+.article .full_div {
+	color: #000;
+	margin: 4px 0 0 0;
+}
+
+.article hr {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.article small {
+	padding-right: 4px;
+}
+
+.errorlist {}
+.errorlist_registration {}
+.error {color: red;}
+.user {}
+
+.flat p {
+	padding: 6px 0 2px 0;
+}
+
+.container {
+	padding: 12px 10px 10px 20px;
+	width: 540px;
+	text-align: left;
+}
+
+.container table {
+	width: 100%;
+	border-collapse: collapse !important;
+	text-align: left;
+}
+
+.container th, .container td {
+	padding: 4px 6px 4px 6px;
+	border: 1px solid #a9a9a9;
+}
+

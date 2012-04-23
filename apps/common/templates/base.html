@@ -1,0 +1,39 @@
+{% load elements %}
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head profile="http://gmpg.org/xfn/11">
+<title>AriesUA test for Dolbunov</title>
+<link href="/static/css/styles.css" type="text/css" rel="stylesheet">
+<script type="text/javascript" src="/static/js/jquery-1.4.4.min.js"></script>
+<script type="text/javascript" src="/static/js/scriptik.js"></script>
+
+</head>
+<body>
+	<center id="center">
+		<div id="header">
+			{% header %}
+		</div>
+		<div id="menu">
+			{% menu %}
+		</div>
+		{% if messages %}
+			<div id="messages">
+				{% for message in messages %}
+					<div class="{{ message.tags }}">
+						{{ message }}
+					</div>
+				{% endfor %}
+				<a href="javascript: hideMessage();" class="right">
+					<img src="/static/img/close.png" alt="" class="close"  />
+				</a>
+			</div>
+		{% endif %}
+		<div id="content">
+			{% block content %}{% endblock %}
+		</div>
+		<div id="footer">
+		{% footer %}
+		</div>
+	</center>
+</body>
+</html>

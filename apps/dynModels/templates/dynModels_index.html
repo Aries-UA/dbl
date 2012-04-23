@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block content %}
+	
+	<h2>Выполнение тестового задание</h2>
+
+	<div class="menu left">
+		<ul>
+			{% for t in models_name %}
+				<li><a href="#" onclick="getContent('container', '{{ t.table }}'); return false;">{{ t.name }}</a></li>
+			{% endfor %}
+		</ul>
+	</div>
+	<div id="container" class="container left">Выберите таблицу</div>
+	<div class="clear"></div>
+
+{% endblock %}

@@ -1,0 +1,16 @@
+users:
+  title: Пользователи
+  fields:
+  - {id: name, title: Имя, type: char}
+  - {id: paycheck, title: Зарплата, type: int}
+rooms:
+  title: Комнаты
+  fields:
+  - {id: department, title: Отдел, type: char}
+  - {id: spots, title: Вместимость, type: int}
+office:
+  title: Офисы
+  fields:
+  - {id: number, title: Номер, type: int}
+  - {id: floor, title: Этаж, type: int}
+  - {id: area, title: Площадь, type: int}
