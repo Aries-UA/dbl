@@ -9,31 +9,31 @@
 
 </head>
 <body>
-	<center id="center">
-		<div id="header">
-			{% header %}
-		</div>
-		<div id="menu">
-			{% menu %}
-		</div>
-		{% if messages %}
-			<div id="messages">
-				{% for message in messages %}
-					<div class="{{ message.tags }}">
-						{{ message }}
-					</div>
-				{% endfor %}
-				<a href="javascript: hideMessage();" class="right">
-					<img src="/static/img/close.png" alt="" class="close"  />
-				</a>
-			</div>
-		{% endif %}
-		<div id="content">
-			{% block content %}{% endblock %}
-		</div>
-		<div id="footer">
-		{% footer %}
-		</div>
-	</center>
+    <center id="center">
+        <div id="header">
+            {% header %}
+        </div>
+        <div id="menu">
+            {% menu %}
+        </div>
+        {% if messages %}
+            <div id="messages">
+                {% for message in messages %}
+                    <div class="{{ message.tags }}">
+                        {{ message }}
+                    </div>
+                {% endfor %}
+                <a href="javascript: hideMessage();" class="right">
+                    <img src="/static/img/close.png" alt="" class="close"  />
+                </a>
+            </div>
+        {% endif %}
+        <div id="content">
+            {% block content %}{% endblock %}
+        </div>
+        <div id="footer">
+        {% footer %}
+        </div>
+    </center>
 </body>
 </html>

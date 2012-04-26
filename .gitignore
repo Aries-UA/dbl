@@ -3,3 +3,6 @@
 /media/*
 /logs/*
 /.sql/*
+.project
+.pydevproject
+.settings/*

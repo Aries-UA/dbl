@@ -6,13 +6,13 @@ from django import template
 register = template.Library()
 
 def header():
-	return {}
+    return {}
 
 def footer():
-	return {}
-	
+    return {}
+    
 def menu():
-		return {}
+    return {}
 
 register.inclusion_tag('templatetags/header.html')(header)
 register.inclusion_tag('templatetags/footer.html')(footer)

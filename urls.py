@@ -7,9 +7,8 @@ from django.contrib import admin
 admin.autodiscover()
 
 urlpatterns = patterns('',
-	url('', include('apps.dynModels.urls')),
-	###
-	url(r'^media/(?P<path>.*)$', 'django.views.static.serve', {'document_root': settings.MEDIA_ROOT}),
-	url(r'^favicon\.ico$', RedirectView.as_view(url='/media/favicon.ico')),
-	(r'^admin/', include(admin.site.urls)),
+    url('', include('apps.dynModels.urls')),
+    url(r'^media/(?P<path>.*)$', 'django.views.static.serve', {'document_root': settings.MEDIA_ROOT}),
+    url(r'^favicon\.ico$', RedirectView.as_view(url='/media/favicon.ico')),
+    (r'^admin/', include(admin.site.urls)),
 )
